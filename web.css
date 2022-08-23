@@ -1,0 +1,229 @@
+.header {
+    position: relative;
+    height: 80vh;
+    min-height: 600px;
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Users/tszlongip/Documents/JS Fundamental/0016-27.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.bi-facebook,
+.bi-youtube,
+.bi-instagram,
+.bi-google,
+.bi-twitter {
+    color: rgba(0, 0, 0, 0.669);
+    font-size: 18px;
+    z-index: 5;
+}
+
+.btn-primary.btn-rounded {
+    color: rgba(0, 0, 0, 0.669);
+    background-color: rgba(255, 255, 255, 0.669);
+    border-color: white;
+    order: 1px solid transparent;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    width: 70px;
+
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+
+}
+
+h3 {
+    color: black;
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+}
+
+h5 {
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+h6 {
+    color: black;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.header .container {
+    position: relative;
+    height: 100%;
+    text-decoration: white;
+}
+
+.header .header-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    color: white;
+}
+
+#social-icons {
+    display: flex;
+    max-width: 180px;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.container-fluid.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.351);
+}
+
+.nav-item {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.351);
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.351);
+}
+
+.col-md-12.left {
+    padding-top: 15px;
+    padding-left: 10px;
+    border-style: dotted;
+    border-radius: 15px;
+    border-color: black;
+    height: 400px;
+    background-image: url("/Users/tszlongip/Documents/JS Fundamental/Personal-project/about-me-img.JPG");
+    background-size: cover;
+
+}
+
+
+.profile-img {
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    transform: translate(20%, -50%);
+    border: 10px solid white;
+    z-index: 2;
+    box-shadow: 0 5px 1px rgb(128 128 128 / 13%);
+    width: 170px;
+    border-radius: 50%;
+}
+
+#about-me {
+    background-color: #fff;
+    opacity: 0.5;
+    padding: 5px 5px 5px 5px;
+    border-color: black;
+    border-radius: 15px;
+    text-align: initial;
+    margin-bottom: 15px;
+}
+
+.education {
+    background-color: #fff;
+    opacity: 0.5;
+    padding: 5px 5px 5px 5px;
+    border-color: black;
+    border-radius: 15px;
+    text-align: initial;
+}
+
+
+#photos-album {
+    height: 80px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.802) !important;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.351);
+    font-size: x-large;
+    padding-top: 15px;
+    /* padding-left: px; */
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.d-block.w-100 {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.w-100 {
+    width: 80vw !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.nav.justify-content-center {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.802);
+    border-style: solid;
+    justify-content: space-around !important;
+    font-size: 16px;
+    --bs-nav-link-hover-color: black;
+}
+
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end,
+.carousel-fade .carousel-item.active {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+
+.col-md-12.bottom {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.802) !important;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.351);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#bottom-bar {
+    color: rgba(0, 0, 0, 0.351);
+    text-decoration: none;
+}

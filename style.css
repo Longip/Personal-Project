@@ -1,0 +1,236 @@
+body {
+    color: white;
+    background: linear-gradient(rgb(56, 53, 74), rgb(184, 71, 89));
+    opacity: 0.8;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+
+}
+
+h1 {
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    top: 0;
+}
+
+
+
+.top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-fluid.canvas {
+    /* background: linear-gradient(rgb(56, 53, 74), rgb(184, 71, 89)); */
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+
+}
+
+#canvas {
+    /* background-color: white !important; */
+    /* background: linear-gradient(rgb(56, 53, 74), rgb(184, 71, 89)); */
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(140, 221, 251)
+}
+
+#reset-game {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+
+#reset-game,
+#pattern-button,
+#game-mode-button,
+#original-mode-button,
+#start-button,
+#pause-button:hover {
+    cursor: pointer;
+}
+
+.slider-box {
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    padding-top: 5px;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+#start-button {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+#pause-button {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+.pattern-select {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+.bottom-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 100px;
+}
+
+#game-mode-button {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+#original-mode-button {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 80px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+.container-fluid.manual {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-items: space-around;
+}
+
+.number-of-loneliness,
+.number-of-neighbours-o,
+.number-of-neighbours-r {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+
+}
+
+.color-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    height: 80px;
+}
+
+#color-a,
+#color-b,
+#color-c,
+#color-d {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}
+
+/* .color1 {
+    color: rgb(234, 195, 66) !important;
+}
+
+#color-b {
+    color: rgb(115, 245, 224) !important;
+}
+
+#color-c {
+    color: rgb(245, 188, 224) !important;
+
+}
+
+#color-d {
+    color: rgb(255, 0, 0) !important;
+}
+
+#color-a,
+#color-b,
+#color-c,
+#color-d:hover {
+    cursor: pointer;
+} */
+
+.color-select {
+    color: white;
+    background-color: rgb(150, 168, 186);
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    justify-content: center;
+    border-color: rgb(140, 221, 251);
+    border-style: solid;
+}

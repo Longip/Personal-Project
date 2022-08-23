@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Game-of-life</title>
+</head>
+
+<body>
+    <h1>Game of life</h1>
+    <div class="top-bar">
+        <div id="start-button">Start</div>
+        <div id="pause-button">Pause</div>
+        <div id="reset-game">Reset</div>
+        <div class="slider-box">
+            <div id="slide-bar"></div>
+        </div>
+        <select class="pattern-select" aria-label="Default select example">
+            <option selected>Choose pattern</option>
+            <option value="1">
+                <div class="pattern1">Glider</div>
+            </option>
+            <option value="2">Gosper glider gun</option>
+            <option value="3">Lightweight spaceship</option>
+            <option value="4">Herschel</option>
+        </select>
+
+
+        <select class="color-select" aria-label="Default select example">
+            <option selected>Choose a color</option>
+            <option value="1">
+                <div class="color1">Yellow(Default)</div>
+            </option>
+            <option value="2">Green</option>
+            <option value="3">Pink</option>
+            <option value="4">Red</option>
+        </select>
+    </div>
+
+    <div class="container-fluid canvas">
+        <div id='canvas'></div>
+    </div>
+
+    <div class="bottom-bar">
+        <!-- <div id="game-mode-button">Game</div> -->
+        <div id="original-mode-button">*(Presee "K" for keyboard mode)<br>("Space" to draw , "Arrows to move")</div>
+        <div class="number-of-loneliness">
+            <span>The number of neighbours to prevent loneliness:</span>
+            <div class="lonely"><input id="lonely" type="number" value="2" min="1" max="7"></div>
+        </div>
+        <div class="number-of-neighbours-o">
+            <span>The number to prevent overpopulation:</span>
+            <div class="neighbours-o"><input id="neighbourO" type="number" value="3" min="0" max="7"></div>
+        </div>
+        <div class="number-of-neighbours-r">
+            <span>The minimum number to reproduce:</span>
+            <div class="neighbours-r"><input id="neighbourR" type="number" value="3" min="1" max="7"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
